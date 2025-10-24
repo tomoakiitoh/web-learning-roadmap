@@ -36,3 +36,22 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+/* --- スマホ向けレイアウト (画面幅が600px以下) --- */
+@media (max-width: 600px) {
+  body {
+    padding: 1em;
+  }
+
+  main {
+    padding: 1.5em;
+  }
+
+  h1 {
+    font-size: 1.6rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+}
