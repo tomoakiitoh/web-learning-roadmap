@@ -1,0 +1,38 @@
+body {
+  font-family: "Hiragino Sans", "Helvetica Neue", sans-serif;
+  background-color: #fafafa;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+footer {
+  background-color: #004aad;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2em;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h1,
+h2 {
+  color: #004aad;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
