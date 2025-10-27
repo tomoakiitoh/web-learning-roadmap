@@ -10,45 +10,71 @@
     />
   </head>
   <body>
-    <header>
-      <h1>いとう　ともあき</h1>
-      <p>医療機器エンジニア</p>
+    <header class="hero">
+      <h1 class="hero__name">いとう ともあき</h1>
+      <p class="hero__role">医療機器エンジニア</p>
     </header>
 
     <main class="fade-in">
       <section class="profile">
         <h2 class="profile__title">プロフィール</h2>
-        <p class="profile__text">医療機器開発に20年以上携わっています。</p>
+        <p class="profile__text">
+          医療機器開発に20年以上携わっています。現場で本当に使われる仕組みを設計することを大切にしています。必要以上に複雑にせず、運用負担が少なく安全に維持できることを重視しています。
+        </p>
       </section>
-      <section>
-        <h2>趣味</h2>
-        <ul>
-          <li>読書</li>
-          <li>旅行</li>
-          <li>料理</li>
+
+      <section class="projects">
+        <h2 class="projects__title">取り組んでいること</h2>
+        <ul class="projects__list">
+          <li class="projects__item">
+            RFID を用いた薬剤・医療機器管理システム
+          </li>
+          <li class="projects__item">
+            M5Stack / BLE / センサを活用した現場向け IoT デバイス
+          </li>
+          <li class="projects__item">
+            Django / API 連携による運用改善システム
+          </li>
         </ul>
       </section>
 
-      <section>
-        <h2>好きな食べ物</h2>
-        <p>寿司、ラーメン、カレーが大好きです。</p>
-      </section>
-
-      <section>
-        <h2>仕事</h2>
-        <p>
-          ソフトウェアエンジニアとして、医療機器のソフトウェア開発を担当しています。<br />
-          <a href="https://1405.co.jp">勤務先</a>
+      <section class="stance">
+        <h2 class="stance__title">スタンス</h2>
+        <p class="stance__text">
+          「使い続けられるシステム」は技術だけでは成り立ちません。現場の動線、心理的な負担、メンテナンス性を含めて成立します。技術は人を支えるための手段であり、その本質を忘れない設計を心がけています。
         </p>
       </section>
 
-      <section>
-        <h2>目標</h2>
-        <p>
-          新しい技術を学び続け、より良い医療機器を開発することを目指しています。
+      <section class="hobby">
+        <h2 class="hobby__title">趣味</h2>
+        <ul class="hobby__list">
+          <li class="hobby__item">読書</li>
+          <li class="hobby__item">旅行</li>
+          <li class="hobby__item">料理</li>
+        </ul>
+      </section>
+
+      <section class="favorite">
+        <h2 class="favorite__title">好きな食べ物</h2>
+        <p class="favorite__text">寿司、ラーメン、カレー。</p>
+      </section>
+
+      <section class="work">
+        <h2 class="work__title">仕事</h2>
+        <p class="work__text">
+          医療機器に関わるソフトウェア開発を担当しています。<br />
+          <a href="https://1405.co.jp">勤務先はこちら</a>
+        </p>
+      </section>
+
+      <section class="goal">
+        <h2 class="goal__title">目標</h2>
+        <p class="goal__text">
+          新しい技術を取り込みながら、より良い医療を支える仕組みをつくり続けることを目指しています。
         </p>
       </section>
     </main>
+
     <footer>
       <p>© 2025 いとうともあき</p>
     </footer>
