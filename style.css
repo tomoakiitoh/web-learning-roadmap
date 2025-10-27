@@ -1,3 +1,10 @@
+:root {
+  --base-bg: #f7f8fa;
+  --text-main: #222222;
+  --text-strong: #1f2937;
+  --accent: #4a6fae;
+}
+
 body {
   font-family: "Noto Sans JP", sans-serif;
   font-weight: 400;
@@ -115,4 +122,22 @@ section {
 }
 p {
   margin-top: 1.2em;
+}
+body {
+  background: var(--base-bg);
+  color: var(--text-main);
+}
+
+h1,
+h2,
+h3 {
+  color: var(--text-strong);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+a:hover {
+  opacity: 0.8;
 }
