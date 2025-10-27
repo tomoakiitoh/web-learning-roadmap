@@ -141,3 +141,16 @@ a {
 a:hover {
   opacity: 0.8;
 }
+
+section {
+  margin-top: 4em;
+}
+.profile {
+  margin-top: 4em;
+}
+.profile__title {
+  font-size: 1.4rem;
+}
+.profile__text {
+  line-height: 1.7;
+}
