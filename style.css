@@ -154,3 +154,32 @@ section {
 .profile__text {
   line-height: 1.7;
 }
+
+section {
+  margin-top: 5rem;
+}
+
+h2 {
+  margin-bottom: 1.2rem;
+}
+
+p,
+li {
+  line-height: 1.8;
+}
+
+h1,
+h2 {
+  font-weight: 500;
+}
+
+p,
+li {
+  font-weight: 300;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1.2rem;
+}
